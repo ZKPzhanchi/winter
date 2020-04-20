@@ -1,84 +1,74 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
 <head>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>音乐--ZKP展翅</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="fonts/iconfont.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
-<link rel="stylesheet" type="text/css" media="screen" href="css/player.css" />
-
+    <meta charset="UTF-8">
+    <title>音乐--ZKP展翅</title>
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <div id="dowebok">
+        <div id="bg-artwork"></div>
+        <div id="bg-layer"></div>
+        <div id="player">
+            <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                </div>
+            </div>
+            <div id="player-content">
+                <div id="album-art">
+                    <img src="images/1.jpg" class="active" id="_1">
+                    <img src="images/2.jpg" id="_2">
+                    <img src="images/3.jpg" id="_3">
+                    <img src="images/4.jpg" id="_4">
+                    <img src="images/5.jpg" id="_5">
+                    <img src="images/6.jpg" id="_6">
+                    <img src="images/7.jpg" id="_7">
+                    <img src="images/8.jpg" id="_8">
+                    <img src="images/9.jpg" id="_9">
+                    <img src="images/10.jpg" id="_10">
+                    <img src="images/11.jpg" id="_11">
+                    <img src="images/12.jpg" id="_12">
+                    <img src="images/13.jpg" id="_13">
+                    <img src="images/14.jpg" id="_14">
+                    <img src="images/15.jpg" id="_15">
+                    <div id="buffer-box">加载中...</div>
+                </div>
+                <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                            <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                            <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!-- 播放器 -->
-<div class="music-player">
-	<!-- audio标签 -->
-	<audio class="music-player__audio" ></audio>
-	<!-- 播放器主体 -->
-	<div class="music-player__main">
-		<!-- 模糊背景 -->
-		<div class="music-player__blur"></div>
-		<!-- 唱片 -->
-		<div class="music-player__disc">
-			<!-- 唱片图片 -->
-			<div class="music-player__image">
-				<img width="100%" src="" alt="">
-			</div>
-			<!-- 指针 -->
-			<div class="music-player__pointer"><img width="100%" src="./images/cd_tou.png" alt=""></div>
-		</div>
-		<!-- 控件主体 -->
-		<div class="music-player__controls">
-			<!-- 歌曲信息 -->
-			<div class="music__info">
-				<h3 class="music__info--title">...</h3>
-				<p class="music__info--singer">...</p>
-			</div>
-			<!-- 控件... -->
-			<div class="player-control">
-				<div class="player-control__content">
-					<div class="player-control__btns">
-						<div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div>
-						<div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div>
-						<div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div>
-						<div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-loop"></i></div>
-					</div>
-					<div class="player-control__volume">
-						<div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div>
-						<div class="control__volume--progress progress"></div>
-					</div>
-				</div>
-
-				<!-- 歌曲播放进度 -->
-				<div class="player-control__content">
-					<div class="player__song--progress progress"></div>
-					<div class="player__song--timeProgess nowTime">00:00</div>
-					<div class="player__song--timeProgess totalTime">00:00</div>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-	<!-- 歌曲列表 -->
-	<div class="music-player__list">
-		<ul class="music__list_content">
-			<!-- <li class="music__list__item play">123</li>
-			<li class="music__list__item">123</li>
-			<li class="music__list__item">123</li> -->
-		</ul>
-	</div>
-</div>
-
-<script src="js/utill.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/player.js"></script>
-
-<div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
-<p>温馨提示：如果有卡顿，请重新刷新</p>
-</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
