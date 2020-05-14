@@ -1,0 +1,4 @@
+鼠标无法显示操控代码
+
+<canvas style="z-index: 15 !important;position: absolute !important;left: 0px !important;top: -60px !important;margin-left: 0px !important;margin-top: 100px !important;line-height: 1 !important;width: 680px !important;height: 670px !important;cursor: none;background-color: #000000a8;" width="800" height="700"><span></canvas>
+
