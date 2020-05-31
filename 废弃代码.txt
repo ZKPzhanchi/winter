@@ -2,3 +2,58 @@
 
 <canvas style="z-index: 15 !important;position: absolute !important;left: 0px !important;top: -60px !important;margin-left: 0px !important;margin-top: 100px !important;line-height: 1 !important;width: 680px !important;height: 670px !important;cursor: none;background-color: #000000a8;" width="800" height="700"><span></canvas>
 
+毕业照展示代码
+
+<!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container-fluid">
+        
+        <header class="section-header">
+          <h3>这是我们的毕业照</h3>
+          <p>很有年代了吧</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="why-us-img">
+              <img src="IMG.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="why-us-content">
+              <p>那是一个风和日丽的一天，我们迎来了人生历史上的第一个转折点
+                     我们毕业了！</p>
+              <p>It was a sunny day, and we ushered in the first turning point in the history of life
+
+We graduated!</p>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="fa fa-diamond" style="color: #f058dc;"></i>
+                <h4>徐某的毕业感言：</h4>
+                <p>时光任苒，转眼，我们从当初懵懂的小孩，成长为现在的知识少年。这-切都离不开老师的衷衷教导，离不开同学们的团结有爱，如今，我即将，请允许我说一声: 再见吧，我亲爱的母校!你是我心中永远的温暖!
+</p>
+              </div>
+
+              <div class="features wow bounceInUp clearfix">
+                <i class="fa fa-object-group" style="color: #ffb774;"></i>
+                <h4>茅同学的毕业感言：</h4>
+                <p>我们老师和在座的同学们都有一份缘，我们同一年走进四中小学部。2012年， 我们来上学，老师去上班。我们共同学习、生活了六年。我们共同生活了Loi年的校园，是你们的母校，是我们的家。在这个校园，我们共同留下了拼搏的记忆，在这个校园，有你们最亲的老师一班主任。我们今天要离开这个校园，但是无论在那里，我们都爱这个校园，我们都爱这里!
+</p>
+              </div>
+              
+              <div class="features wow bounceInUp clearfix">
+                <i class="fa fa-language" style="color: #589af1;"></i>
+                <h4>猴同学的毕业感言：</h4>
+                <p>长亭外，古道边，六年的时光，今天到了分别的时候，犹记得那时的我们还那么稚嫩，现在我们却要分离，我挚爱的同学，祝你们一切都好。
+</p>
+              </div>
+              
+            </div>
+
+          </div>
+
+        </div>
